@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git url: 'https://github.com/seek0001/bookstore.git', branch: 'main'
+                git url: 'https://github.com/seek0001/bookstore.git', branch: 'add-books-feature'
             }
        }
 
